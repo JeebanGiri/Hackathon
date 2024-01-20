@@ -1,0 +1,36 @@
+.choosingContainer {
+    height: 60vh;
+    width: 40%;
+    background-color: #e7e7e9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 40px 400px;
+    margin-bottom: 100px;
+    gap: 4rem;
+    border-radius: 5px;
+    
+}
+
+.main-contanier {
+    border: 1px solid #d1d8e6;
+    height: 10rem;
+    width: 12rem;
+    border-radius: 4px;
+    display: flex;
+    font-size: 23px;
+    border: 2px solid #d1d8e6;
+    background-color: rgb(208, 210, 212);
+    font-weight: 600;
+    flex-direction: column; /* Stack items vertically */
+    justify-content: center;
+    align-items: center;
+    text-align: center; /* Center the text */
+    padding: 1rem; /* Optional: Adds some padding inside the container */
+}
+
+.main-contanier img {
+    margin-bottom: 0.5rem; /* Optional: Adds a little space between the image and the text */
+    width: 50%; /* Optional: Adjust the size of the image */
+    height: auto; /* Maintain aspect ratio */
+}

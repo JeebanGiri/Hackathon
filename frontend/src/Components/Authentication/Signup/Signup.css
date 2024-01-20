@@ -1,0 +1,206 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya:wght@700&family=Inter:wght@400;500;600&family=Roboto&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.authentication-signup-section{
+    /* height: 100vh; */
+    margin-top: 5.2rem;
+    display: flex;
+    justify-content: center;
+    
+}
+.box-form-image-container{
+    /* display: flex;
+    flex-direction: row; */
+    width: 68%;
+    box-shadow: 0 6px 24px rgba(0,0,0,.06);
+    background: url("https://www.locofy.ai/54e7d72192e5d45fdd46137cb2af622e.svg") left -80px top -42px no-repeat;
+    border-radius: 14px;
+    height: 50rem;
+}
+.signup-authentication-form-container{
+    /* box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px; */
+    margin-left: auto;
+    margin-right: 0;
+    /* width: 45%; */
+    width: calc(45% + 80px);
+    padding: 17px 40px;
+}
+
+.multiple-organize-components{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.heading-paragraph{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+   
+}
+
+.join-blendy{
+    font-size: 29px;
+    letter-spacing: .5px;
+    font-family: 'Alegreya', serif;
+}
+.quote-pargraph{
+    word-spacing: .3px;
+    font-size: 17px;
+    line-height: 1.7;
+    color: #354C5A;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.authentication-button-group{
+    display: flex;
+    flex-direction: column;
+    gap: 22px;
+
+}
+
+.conutine-paragraph{
+    word-spacing: .3px;
+    font-size: 17px;
+    color: #354C5A;
+    font-family: 'Roboto', sans-serif;
+}
+
+.google-facebook-through-container{
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+}
+
+.google-facebook-through-container .google-authentication-button{
+    /* styling for the google authentication button */
+    background-color: #fdfeff;
+    padding: 19px 26px 19px 52px;
+    border: 1px solid #d1d8e6;
+    border-radius: 6px;
+    line-height: 20px;
+    display: flex;
+    flex-direction: row;
+    letter-spacing: .3px;
+    font-size: 17px;
+    font-family: 'Roboto', sans-serif;
+    cursor: pointer;
+    justify-content: center;
+    gap: 6px;
+}
+.img-google{
+    width: 21px;
+    height: 21px;
+}
+
+.input-button-paragraph-container{
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+}
+
+.sign-up-with-mail{
+    word-spacing: .3px;
+    font-size: 17px;
+    color: #354C5A;
+    font-family: 'Roboto', sans-serif;
+}
+
+.input-buttons-containers{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.input-buttons-containers .input_ZXU input{
+    color: #3f4c5a;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    letter-spacing: .3px;
+}
+
+.input_ZXU{
+    position: relative;
+}
+
+.input_YUT{
+    background-color: #fdfeff;
+    border: 1px solid #d1d8e6;
+    border-radius: 6px;
+    line-height: 20px;
+    padding: 19px 26px 19px 52px;
+    position: relative;
+    width: 100%;
+}
+
+.icon-input{
+    border-radius: 4px;
+    height: 22px;
+    left: 16px;
+    pointer-events: none;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 22px;
+    max-width: 100%;
+}
+
+
+.file-input{
+    color: #354C5A;
+    font-family: 'Roboto', sans-serif;
+    padding: 19px 26px 19px 15px;
+    border: 1px solid #d1d8e6;
+    border-radius: 6px;
+    width: 25.5rem;
+    position: relative;
+}
+
+.signup-button{
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    letter-spacing: .3px;
+    background-color: #457eff;
+    border-color: #457eff;
+    border: 1px solid transparent;
+    border-radius: 6px;
+    color: #ffff;
+    cursor: pointer;
+    font-weight: 700;
+    margin-top: -15px;
+    padding: 20px 20px;
+    transition: color .2s ease-in-out,background-color .2s ease-in-out,border-color .2s ease-in-out;
+    width: 100%;
+}
+
+.already-signin-Terms-and-condition{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin-top: -20px;
+    align-items: center;
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.already-signin-Terms-and-condition span{
+    font-weight: bolder;
+    color: #457eff;
+    cursor: pointer;
+}
+.terms-and-condition{
+    color: #98a3bb;
+    font-size: 14px;
+    line-height: 18px;
+    cursor: pointer;
+}
+
+
+
+
+  

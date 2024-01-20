@@ -1,0 +1,166 @@
+body {
+  /* background: url("../../images/unsplash.jpg"); */
+  margin: 0; 
+  padding: 0;  
+}
+
+/* Container styles for buttons */
+.button-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 300px; /* Adjust the width as needed */
+  margin: 50px auto; /* Center the container */
+}
+
+.header{
+  background: #000;
+  border-radius: 5px;
+  padding: 10px;
+}
+.Box{
+  display: flex;
+  flex-direction: column; /* Stack containers vertically */
+  align-items: center;
+  height: 600px;
+  width: 400px; /* Adjust the width as needed */
+  margin: 50px auto; /* Center the container */
+  margin-top: 6%;
+  border: 1px solid White; /* Add a border for visual separation */
+  padding: 10px;
+  box-shadow: 3px 8px 10px black; 
+  background-color: rgba(255, 255, 255, 0.1);; /* Semi-transparent white background */
+  backdrop-filter: blur(15px); /* Apply a blur effect */
+  border-radius: 45px;
+  opacity: 5px;
+  margin-bottom: 100px;
+}
+.whites{
+  display: flex;
+  flex-direction: column; /* Stack containers vertically */
+  height: 50px;
+  width: 160px; /* Adjust the width as needed */
+  margin: 50px auto; /* Center the container */
+  margin-top: 10%;
+  border: 1px solid black; /* Add a border for visual separation */
+  padding: 5px;
+  box-shadow: 3px 8px 10px black; 
+  background-color: black; /* Semi-transparent white background */
+  backdrop-filter: blur(15px); /* Apply a blur effect */
+  opacity: 5px;
+  align-items: center;
+  justify-content: center;
+}
+
+.list{
+  margin-top: 2%;
+}
+
+.heading{
+ text-align: center;
+ color: white;
+}
+
+/* Default button styles */
+[id^="leftButton"] {
+  padding: 20px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: black; /* Default color (blue) */
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease; /* Add transition for background color */
+  border-radius: 30px;
+  background-color: 0.5s cubic-bezier(0.68, -0.55, 0.27, 1.55); /* Smoother transition with cubic-bezier */
+  box-shadow: 2px 2px 2px white; 
+}
+
+/* Style for button when clicked */
+[id^="leftButton"].clicked {
+  background-color: #228B22; /* New color (green) */
+}
+
+/* Default button styles for the "Done" button */
+[id^="doneButton"] {
+  padding: 13px 17px;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: #088F8F; /* Default color (red) */
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 2px 2px 2px white; 
+}
+
+/* Default button styles */
+[id^="leftButton"],
+[id^="doneButton"] {
+padding: 13px 20px; /* Adjusted padding for better readability */
+font-size: 18.5px;
+cursor: pointer;
+color: #fff;
+border: none;
+border-radius: 25px;
+transition: background-color 0.5s cubic-bezier(0.68, -0.55, 0.27, 1.55), 
+            padding 0.3s ease, 
+            border-radius 0.3s ease,
+            box-shadow 0.3s ease; /* Smooth transitions for various properties */
+}
+
+/* Style for button when hovered */
+[id^="doneButton"]:hover {
+  background-color: #228B22; /* Darker color on hover */
+}
+
+/* Reset some default margin and padding */
+body, h1, h2, h3, p, footer {
+  margin-top: 10px;
+  padding: 0;
+  font-size: 24.5px;
+}
+
+/* Set a minimum height for the body to include the footer */
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Style for the footer */
+footer {
+  background-color: white; /* Footer background color */
+  color: black; /* Footer text color */
+  /*padding: 0px; */
+  text-align: center;
+}
+
+/* Style for the footer content */
+.footer-content {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+/* Style for the footer logo */
+.footer-logo img {
+  max-width: 400px; /* Adjust the max-width as needed */
+}
+
+/* Style for the footer text */
+.footer-text {
+  max-width: 400px; /* Adjust the max-width as needed */
+}
+.social-media-icons {
+  display: flex;
+  align-items: center;
+}
+
+/* Responsive styling for smaller screens */
+@media screen and (max-width: 600px) {
+  .footer-content {
+    flex-direction: column;
+  }
+}
+
+

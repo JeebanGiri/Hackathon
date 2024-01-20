@@ -1,0 +1,65 @@
+body{
+    background: url("../../images/image.jpg");
+    font-family: Manrope, sans-serif;
+    padding: 0 3rem 0 3rem;
+    position: relative;
+}
+
+.bodypart{
+    display: flex;
+    justify-content: space-between;
+}
+
+.bodypart .text{
+    padding-top: 9rem;
+    margin-left: 50px;
+}
+
+.bodypart .text .bigtext .t1 p{
+    font-size: 2.5rem;
+    font-weight: 200;
+    padding: 10px;
+}
+
+.bodypart .text .bigtext .t2 p{
+    margin-top: -2rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.bodypart .text .smalltext{
+    line-height: 2rem;
+    font-weight: 200;
+    margin-top: 70px;
+}
+.smalltext, .parag{
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.challange {
+    margin-top: 2rem;
+    background-color: #12940c;
+    color: #fff;
+    font-size: 23px;
+    padding: 20px 30px;
+    border: none;
+    border-radius: 1.5rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    display: inline-block;
+  }
+
+  .btn:hover {
+    background-color: #9a270d;
+  }
+
+.bodypart .photo{
+    padding-top: 5rem;
+    padding-right: 2rem;
+}
+
+.bodypart .photo .imge img{
+    height: 42rem;
+    width: 35rem;
+}
